@@ -4,8 +4,8 @@
 // @version      0.1
 // @description  Matrix42 US for ZETTAPLAN AG
 // @author       MyDrift-user
-// @downloadURL https://github.com/MyDrift-user/EditColumnContent/raw/main/edit-column-content.user.js
-// @updateURL   https://github.com/MyDrift-user/EditColumnContent/raw/main/edit-column-content.user.js
+// @downloadURL  https://github.com/MyDrift-user/userscripts/raw/main/matrix42.user.js
+// @updateURL    https://github.com/MyDrift-user/userscripts/raw/main/matrix42.user.js
 // @match        https://zettaplan.m42cloud.com/*
 // @grant        GM_addStyle
 // ==/UserScript==
