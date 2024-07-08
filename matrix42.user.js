@@ -6,6 +6,7 @@
 // @author       MyDrift-user
 // @downloadURL  https://github.com/MyDrift-user/userscripts/raw/main/matrix42.user.js
 // @updateURL    https://github.com/MyDrift-user/userscripts/raw/main/matrix42.user.js
+// @icon         https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK4jvTfHW3T86TNrUhUkLquhgjeijt6DK2Mg&s
 // @match        https://zettaplan.m42cloud.com/*
 // @grant        GM_addStyle
 // ==/UserScript==
