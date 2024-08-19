@@ -20,6 +20,9 @@ Install [Stylus](https://github.com/openstyles/stylus)
 
 > [!NOTE]  
 > Zips all files of the currently opened moodle course and downloads them.
+> Accessable in right panel of moodle courses.
+
+(![image](https://github.com/user-attachments/assets/e0e26eb6-2995-4267-8714-5fd483e92889)
 
 ## CompactFrontpage
 
