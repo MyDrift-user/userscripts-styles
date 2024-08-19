@@ -10,3 +10,7 @@ Install [Stylus](https://github.com/openstyles/stylus)
 ## Midnight Moodle
 
 [![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/userscripts-styles/raw/main/MidnightMoodle.user.css)
+
+## CompactFrontpage
+
+[![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/userscripts-styles/raw/main/CompactFrontpage.user.js)
