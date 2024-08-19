@@ -1,0 +1,113 @@
+/* ==UserStyle==
+@name           MidnightMoodle
+@namespace      https://github.com/MyDrift-user/MidnightMoodle/
+@version        1.0.7
+@updateURL      https://github.com/MyDrift-user/MidnightMoodle/raw/main/MidnightMoodle.user.css
+@description    Don't get blind on sunday night before submission time
+@author         MyDrift
+@license        MIT
+@preprocessor	stylus
+@var select     mode                    "Modes"                      ["Dark", "Midnight", "Light", "Custom"]
+@var text       amountinvert            "Visibility in %"            0
+==/UserStyle== */
+
+@-moz-document domain("moodle.bbbaden.ch") {
+    
+    .card-img,
+    .pp-grade, 
+    .vjs-control-bar, 
+    .trafficlight
+    body video,
+    body img:not(.logo, .login-logo *),
+    html:not(.pp-grade, .vjs-control-bar, .trafficlight) {
+        if (mode == Light) {
+            filter: invert(0%);
+        } else if (mode == Dark) {
+            filter: invert(90%);
+        } else if (mode == Midnight) {
+            filter: invert(100%);
+        } else if (amountinvert != "") {
+            filter: invert(amountinvert + '%');
+        }
+    }
+    
+    .card-img,
+    body img:not(.logo, .login-logo *) {
+        if (mode == Dark) {
+            filter: invert(100%);
+        }
+    }
+    
+    if (mode != Light || mode == Dark || mode == Midnight || mode != Light && mode != Dark && mode != Midnight && modeamountinvert < 100) {
+        /*Mark Text*/
+        ::-webkit-selection,
+        ::selection {
+            color: white;
+            background: red; 
+        }
+        
+        /*Some Dropdown Buttons*/
+        select {
+            background-color: #333;
+            color: white;
+        }
+
+        option {
+            background-color: #333;
+            color: white;
+        }
+
+        select .btn {
+            color: white;
+        }
+    }
+    
+    /*Test Question Background*/
+    .que, .formulation {
+        border-color: #B8DCE200;
+        if (amountinvert == 90%) {
+            background-color: #F8F8F8;
+        } else if (amountinvert == 100%) {
+            background-color: #EEE;
+        }
+    }
+}
+@-moz-document url("https://moodle.bbbaden.ch/userscript/extensions") {
+
+/*BBB Userscriptmanager black icon support*/
+    if (mode != Light || mode == Dark || mode == Midnight || mode != Light && mode != Dark && mode != Midnight && modeamountinvert > 50) {
+        tbody tr {
+            background-color: #d6d6d6; 
+            color: #202020; 
+            border-bottom: 1px solid #a0a0a0; 
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #e0e0e0; 
+        }
+
+        tbody td {
+            padding: 8px; 
+            vertical-align: top;
+        }
+
+        tbody td a {
+            text-decoration: none; 
+        }
+
+        tbody td a:hover {
+            text-decoration: underline; 
+        }
+
+        tbody .btn {
+            background-color: #e0e0e0; 
+            border-color: #d0d0d0;
+            color: #202020; 
+        }
+
+        tbody .btn:hover {
+            background-color: #cacaca; 
+        }
+    }
+    
+}
