@@ -12,7 +12,8 @@ Install [Stylus](https://github.com/openstyles/stylus)
 [![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/userscripts-styles/raw/main/MidnightMoodle.user.css)
 
 > [!NOTE]  
-> Theme Moodle Into diffrent themes [Light, Dark, Midnight & Custom invertion values]
+> Theme Moodle to your liking
+> [Light, Dark, Midnight & Custom invertion values]
 
 ## Moodle File Downloader
 
