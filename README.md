@@ -1,6 +1,6 @@
 # Userscripts & Styles
 
-A collection of userscripts and userstyles
+A collection of userscripts and userstyles mostly made for BBBaden's adaption of Moodle.
 By me and other credited users
 
 Install [Violentmonkey](https://violentmonkey.github.io/)
