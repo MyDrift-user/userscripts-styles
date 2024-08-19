@@ -97,27 +97,4 @@
             });
         });
     }
-
-  //####################### DataBridge #######################
-  if (window.location.href.includes('https://moodle.bbbaden.ch/userscript/extensions')) {
-      // Create a new DataBridge
-      const UserScriptManagerCon = new Connection("BBBUserScriptManager");
-
-      // Register an event listener for the extensionInstalled event
-      Protocol.registerMessageType(UserScriptManagerCon, 'getInstalled', function (msg) {
-          UserScriptManagerCon.send({
-              "header": {
-                  "receiver": msg.header.sender,
-                  "protocolVersion": "1.0",
-                  "messageType": "extensionInstalled",
-              },
-              "body": {
-                  "script": {
-                      "scriptName": GM_info.script.name,
-                      "scriptVersion": GM_info.script.version,
-                  }
-              }
-          });
-      });
-  }
 })();
