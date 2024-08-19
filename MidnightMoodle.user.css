@@ -15,7 +15,8 @@
     
     .card-img,
     .pp-grade, 
-    .vjs-control-bar, 
+    .vjs-control-bar,
+    .rounded.list-image.mw-100,
     .trafficlight
     body video,
     body img:not(.logo, .login-logo *),
