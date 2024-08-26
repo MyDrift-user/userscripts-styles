@@ -33,6 +33,8 @@ Install extension: [Stylus](https://github.com/openstyles/stylus)
 ## CompactFrontpage
 
 [![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/userscripts-styles/raw/main/CompactFrontpage.user.js)
-> [!NOTE]  
-> [Userscript] 
+
+> [!NOTE]
+> [Userscript]
+
 ![Without](./with-out.png)
