@@ -4,10 +4,10 @@ A collection of userscripts and userstyles mostly made for BBBaden's adaption of
 By me and other credited users
 
 #### For userscripts
-Install [Violentmonkey](https://violentmonkey.github.io/)
+Install extension: [Violentmonkey](https://violentmonkey.github.io/)
 
 #### For userstyles
-Install [Stylus](https://github.com/openstyles/stylus)
+Install extension: [Stylus](https://github.com/openstyles/stylus)
 
 ## Midnight Moodle
 
